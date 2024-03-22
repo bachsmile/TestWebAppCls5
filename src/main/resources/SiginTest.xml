@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"
+               value="https://tester.cls.vn/login" />
+
+    <test name="sample test">
+        <classes>
+            <class name="CLS.TestcaseCLS.QLToChuc.QLNguoiDung.CapNhatNguoiDungTest">
+                <methods>
+<!--                    <include name="openAddNewUser" />-->
+<!--                    <include name="themMoiThanhCong" />-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"
+               value="https://kinhdoanh.cloudlms.dev/login" />
+
+    <test name="sample test">
+        <classes>
+            <class name="TestCase.QuanLyToChuc.QLNguoiDung.CapNhatNguoiDungTest">
+                <methods>
+                    <include name="openEditUser" />
+                    <include name="capNhatThongTinCoBanTabHoSoCaNhan" />
+<!--                    <include name="themMoiCCTCkhongcoVTCD" />-->
+<!--                    <include name="themMoiCCTCcoVTCD" />-->
+<!--                    <include name="thayDoiCCTCkhongcoVTCD" />-->
+<!--                    <include name="thayDoiCCTCcoVTCD" />-->
+<!--                    <include name="capNhatThaiBai" />-->
+<!--                    <include name="capNhatXoaVTCD" />-->
+<!--                    <include name="capNhatThemVTCD" />-->
+<!--                    <include name="capNhatThayDoiVTCD" />-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
